@@ -3,9 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var x = "a"
-	fmt.Println(x)
-	if x == "a" {
-
-	}
+	var arr = []int{1, 2, 3}
+	fmt.Println(arr)
 }
