@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, world!")
+	var x = "a"
+	fmt.Println(x)
+	if x == "a" {
+
+	}
 }
