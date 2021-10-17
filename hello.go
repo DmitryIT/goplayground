@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var arr = []int{1, 2, 3}
-	fmt.Println(arr)
+	var mySlice = make([]int, 0)
+	for i := 0; i < 30; i++ {
+		mySlice = append(mySlice, i)
+		fmt.Println("len=", len(mySlice), " cap=", cap(mySlice))
+	}
+
+	fmt.Println(mySlice[len(mySlice)-2:])
 }
