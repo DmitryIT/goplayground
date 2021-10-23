@@ -1,0 +1,1 @@
+![example workflow](https://github.com/DmitryIT/goplayground/actions/workflows/go.yml/badge.svg)
