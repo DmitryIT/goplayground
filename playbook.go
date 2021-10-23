@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const GITHUB_TOCKEN string = "hHGhsdfj6adshHh83j4"
+const GITHUB_TOKEN string = "hHGhsdfj6adshHh83j4"
 const VAULT_PASSWORD string = "sdfsdfjnsdkfjb/nbsdfnb/mnbsdf"
 
 type Counter struct {
