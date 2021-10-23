@@ -45,5 +45,4 @@ func main() {
 		log.Fatalln(err)
 	}
 	cnt.String()
-	fmt.Sprintf()
 }
