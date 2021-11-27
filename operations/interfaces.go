@@ -34,7 +34,7 @@ func doFoo(item foobar) {
 type itemC struct{}
 type empty interface{}
 
-func main() {
+func _main() {
 	var _ foobar = &itemA{}
 	doFoo(&itemA{})
 	doFoo(&itemB{})
