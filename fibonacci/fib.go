@@ -1,4 +1,4 @@
-package main
+package fibonacci
 
 // Fibonacci returns the n-th fibonacci number.
 func Fibonacci(n uint) (uint64, error) {
